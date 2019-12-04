@@ -1,0 +1,301 @@
+--------------------------------------------------------------------------------
+Codebook for NHGIS data file 'nhgis0004_ds176_20105_2010_blck_grp'
+--------------------------------------------------------------------------------
+ 
+Contents
+    - Data Summary
+    - Data Dictionary
+    - Citation and Use
+ 
+Additional documentation on NHGIS data sources is available at: 
+    https://www.nhgis.org/documentation/tabular-data 
+ 
+--------------------------------------------------------------------------------
+Data Summary
+--------------------------------------------------------------------------------
+ 
+Year:             2006-2010
+Geographic level: Block Group (by State--County--Census Tract)
+Extent:           Kansas
+Dataset:          2010 American Community Survey: 5-Year Data [2006-2010, Block Groups & Larger Areas]
+   NHGIS code:    2006_2010_ACS5a
+   NHGIS ID:      ds176
+Breakdown(s):     Geographic Subarea:
+                     Total area (00)
+Data type(s):     (E) Estimates
+                  (M) Margins of error
+ 
+Tables:
+ 
+1. Sex by Occupation for the Civilian Employed Population 16 Years and Over
+   Universe:    Civilian employed population 16 years and over
+   Source code: C24010
+   NHGIS code:  JQ5
+ 
+--------------------------------------------------------------------------------
+Data Dictionary
+--------------------------------------------------------------------------------
+ 
+Context Fields 
+        GISJOIN:     GIS Join Match Code
+        YEAR:        Data File Year
+        REGIONA:     Region Code
+        DIVISIONA:   Division Code
+        STATE:       State Name
+        STATEA:      State Code
+        COUNTY:      County Name
+        COUNTYA:     County Code
+        COUSUBA:     County Subdivision Code
+        PLACEA:      Place Code
+        TRACTA:      Census Tract Code
+        BLKGRPA:     Block Group Code
+        CONCITA:     Consolidated City Code
+        AIANHHA:     American Indian Area/Alaska Native Area/Hawaiian Home Land Code
+        RES_ONLYA:   American Indian Area/Alaska Native Area (Reservation or Statistical Entity Only) Code
+        TRUSTA:      American Indian Reservation with Trust Lands; trust lands only Code
+        AITSCEA:     Tribal Subdivision/Remainder Code
+        ANRCA:       Alaska Native Regional Corporation Code
+        CBSAA:       Metropolitan Statistical Area/Micropolitan Statistical Area Code
+        CSAA:        Combined Statistical Area Code
+        METDIVA:     Metropolitan Division Code
+        NECTAA:      New England City and Town Area Code
+        CNECTAA:     Combined New England City and Town Area Code
+        NECTADIVA:   New England City and Town Area Division Code
+        UAA:         Urban Area Code
+        CDCURRA:     Congressional District (111th Congress) Code
+        SLDUA:       State Legislative District (Upper Chamber) Code
+        SLDLA:       State Legislative District (Lower Chamber) Code
+        SUBMCDA:     Subminor Civil Division Code
+        SDELMA:      School District (Elementary)/Remainder Code
+        SDSECA:      School District (Secondary)/Remainder Code
+        SDUNIA:      School District (Unified)/Remainder Code
+        PUMA5A:      Public Use Microdata Sample Area (PUMA) Code
+        BTTRA:       Tribal Census Tract Code
+        BTBGA:       Tribal Block Group Code
+ 
+Data Type (E):
+    Estimates
+ 
+        NAME_E:      Area Name
+ 
+    Table 1:     Sex by Occupation for the Civilian Employed Population 16 Years and Over
+    Universe:    Civilian employed population 16 years and over
+    Source code: C24010
+    NHGIS code:  JQ5
+        JQ5E001:     Total
+        JQ5E002:     Male
+        JQ5E003:     Male: Management, business, science, and arts occupations
+        JQ5E004:     Male: Management, business, science, and arts occupations: Management, business, and financial occupations
+        JQ5E005:     Male: Management, business, science, and arts occupations: Management, business, and financial occupations: Management occupations
+        JQ5E006:     Male: Management, business, science, and arts occupations: Management, business, and financial occupations: Business and financial operations occupations
+        JQ5E007:     Male: Management, business, science, and arts occupations: Computer, engineering, and science occupations
+        JQ5E008:     Male: Management, business, science, and arts occupations: Computer, engineering, and science occupations: Computer and mathematical occupations
+        JQ5E009:     Male: Management, business, science, and arts occupations: Computer, engineering, and science occupations: Architecture and engineering occupations
+        JQ5E010:     Male: Management, business, science, and arts occupations: Computer, engineering, and science occupations: Life, physical, and social science occupations
+        JQ5E011:     Male: Management, business, science, and arts occupations: Education, legal, community service, arts, and media occupations
+        JQ5E012:     Male: Management, business, science, and arts occupations: Education, legal, community service, arts, and media occupations: Community and social service occupations
+        JQ5E013:     Male: Management, business, science, and arts occupations: Education, legal, community service, arts, and media occupations: Legal occupations
+        JQ5E014:     Male: Management, business, science, and arts occupations: Education, legal, community service, arts, and media occupations: Education, training, and library occupations
+        JQ5E015:     Male: Management, business, science, and arts occupations: Education, legal, community service, arts, and media occupations: Arts, design, entertainment, sports, and media occupations
+        JQ5E016:     Male: Management, business, science, and arts occupations: Healthcare practitioners and technical occupations
+        JQ5E017:     Male: Management, business, science, and arts occupations: Healthcare practitioners and technical occupations: Health diagnosing and treating practitioners and other technical occupations
+        JQ5E018:     Male: Management, business, science, and arts occupations: Healthcare practitioners and technical occupations: Health technologists and technicians
+        JQ5E019:     Male: Service occupations
+        JQ5E020:     Male: Service occupations: Healthcare support occupations
+        JQ5E021:     Male: Service occupations: Protective service occupations
+        JQ5E022:     Male: Service occupations: Protective service occupations: Fire fighting and prevention, and other protective service workers including supervisors
+        JQ5E023:     Male: Service occupations: Protective service occupations: Law enforcement workers including supervisors
+        JQ5E024:     Male: Service occupations: Food preparation and serving related occupations
+        JQ5E025:     Male: Service occupations: Building and grounds cleaning and maintenance occupations
+        JQ5E026:     Male: Service occupations: Personal care and service occupations
+        JQ5E027:     Male: Sales and office occupations
+        JQ5E028:     Male: Sales and office occupations: Sales and related occupations
+        JQ5E029:     Male: Sales and office occupations: Office and administrative support occupations
+        JQ5E030:     Male: Natural resources, construction, and maintenance occupations
+        JQ5E031:     Male: Natural resources, construction, and maintenance occupations: Farming, fishing, and forestry occupations
+        JQ5E032:     Male: Natural resources, construction, and maintenance occupations: Construction and extraction occupations
+        JQ5E033:     Male: Natural resources, construction, and maintenance occupations: Installation, maintenance, and repair occupations
+        JQ5E034:     Male: Production, transportation, and material moving occupations
+        JQ5E035:     Male: Production, transportation, and material moving occupations: Production occupations
+        JQ5E036:     Male: Production, transportation, and material moving occupations: Transportation occupations
+        JQ5E037:     Male: Production, transportation, and material moving occupations: Material moving occupations
+        JQ5E038:     Female
+        JQ5E039:     Female: Management, business, science, and arts occupations
+        JQ5E040:     Female: Management, business, science, and arts occupations: Management, business, and financial occupations
+        JQ5E041:     Female: Management, business, science, and arts occupations: Management, business, and financial occupations: Management occupations
+        JQ5E042:     Female: Management, business, science, and arts occupations: Management, business, and financial occupations: Business and financial operations occupations
+        JQ5E043:     Female: Management, business, science, and arts occupations: Computer, engineering, and science occupations
+        JQ5E044:     Female: Management, business, science, and arts occupations: Computer, engineering, and science occupations: Computer and mathematical occupations
+        JQ5E045:     Female: Management, business, science, and arts occupations: Computer, engineering, and science occupations: Architecture and engineering occupations
+        JQ5E046:     Female: Management, business, science, and arts occupations: Computer, engineering, and science occupations: Life, physical, and social science occupations
+        JQ5E047:     Female: Management, business, science, and arts occupations: Education, legal, community service, arts, and media occupations
+        JQ5E048:     Female: Management, business, science, and arts occupations: Education, legal, community service, arts, and media occupations: Community and social service occupations
+        JQ5E049:     Female: Management, business, science, and arts occupations: Education, legal, community service, arts, and media occupations: Legal occupations
+        JQ5E050:     Female: Management, business, science, and arts occupations: Education, legal, community service, arts, and media occupations: Education, training, and library occupations
+        JQ5E051:     Female: Management, business, science, and arts occupations: Education, legal, community service, arts, and media occupations: Arts, design, entertainment, sports, and media occupations
+        JQ5E052:     Female: Management, business, science, and arts occupations: Healthcare practitioners and technical occupations
+        JQ5E053:     Female: Management, business, science, and arts occupations: Healthcare practitioners and technical occupations: Health diagnosing and treating practitioners and other technical occupations
+        JQ5E054:     Female: Management, business, science, and arts occupations: Healthcare practitioners and technical occupations: Health technologists and technicians
+        JQ5E055:     Female: Service occupations
+        JQ5E056:     Female: Service occupations: Healthcare support occupations
+        JQ5E057:     Female: Service occupations: Protective service occupations
+        JQ5E058:     Female: Service occupations: Protective service occupations: Fire fighting and prevention, and other protective service workers including supervisors
+        JQ5E059:     Female: Service occupations: Protective service occupations: Law enforcement workers including supervisors
+        JQ5E060:     Female: Service occupations: Food preparation and serving related occupations
+        JQ5E061:     Female: Service occupations: Building and grounds cleaning and maintenance occupations
+        JQ5E062:     Female: Service occupations: Personal care and service occupations
+        JQ5E063:     Female: Sales and office occupations
+        JQ5E064:     Female: Sales and office occupations: Sales and related occupations
+        JQ5E065:     Female: Sales and office occupations: Office and administrative support occupations
+        JQ5E066:     Female: Natural resources, construction, and maintenance occupations
+        JQ5E067:     Female: Natural resources, construction, and maintenance occupations: Farming, fishing, and forestry occupations
+        JQ5E068:     Female: Natural resources, construction, and maintenance occupations: Construction and extraction occupations
+        JQ5E069:     Female: Natural resources, construction, and maintenance occupations: Installation, maintenance, and repair occupations
+        JQ5E070:     Female: Production, transportation, and material moving occupations
+        JQ5E071:     Female: Production, transportation, and material moving occupations: Production occupations
+        JQ5E072:     Female: Production, transportation, and material moving occupations: Transportation occupations
+        JQ5E073:     Female: Production, transportation, and material moving occupations: Material moving occupations
+ 
+Data Type (M):
+    Margins of error
+ 
+        NAME_M:      Area Name
+ 
+    Table 1:     Sex by Occupation for the Civilian Employed Population 16 Years and Over
+    Universe:    Civilian employed population 16 years and over
+    Source code: C24010
+    NHGIS code:  JQ5
+        JQ5M001:     Total
+        JQ5M002:     Male
+        JQ5M003:     Male: Management, business, science, and arts occupations
+        JQ5M004:     Male: Management, business, science, and arts occupations: Management, business, and financial occupations
+        JQ5M005:     Male: Management, business, science, and arts occupations: Management, business, and financial occupations: Management occupations
+        JQ5M006:     Male: Management, business, science, and arts occupations: Management, business, and financial occupations: Business and financial operations occupations
+        JQ5M007:     Male: Management, business, science, and arts occupations: Computer, engineering, and science occupations
+        JQ5M008:     Male: Management, business, science, and arts occupations: Computer, engineering, and science occupations: Computer and mathematical occupations
+        JQ5M009:     Male: Management, business, science, and arts occupations: Computer, engineering, and science occupations: Architecture and engineering occupations
+        JQ5M010:     Male: Management, business, science, and arts occupations: Computer, engineering, and science occupations: Life, physical, and social science occupations
+        JQ5M011:     Male: Management, business, science, and arts occupations: Education, legal, community service, arts, and media occupations
+        JQ5M012:     Male: Management, business, science, and arts occupations: Education, legal, community service, arts, and media occupations: Community and social service occupations
+        JQ5M013:     Male: Management, business, science, and arts occupations: Education, legal, community service, arts, and media occupations: Legal occupations
+        JQ5M014:     Male: Management, business, science, and arts occupations: Education, legal, community service, arts, and media occupations: Education, training, and library occupations
+        JQ5M015:     Male: Management, business, science, and arts occupations: Education, legal, community service, arts, and media occupations: Arts, design, entertainment, sports, and media occupations
+        JQ5M016:     Male: Management, business, science, and arts occupations: Healthcare practitioners and technical occupations
+        JQ5M017:     Male: Management, business, science, and arts occupations: Healthcare practitioners and technical occupations: Health diagnosing and treating practitioners and other technical occupations
+        JQ5M018:     Male: Management, business, science, and arts occupations: Healthcare practitioners and technical occupations: Health technologists and technicians
+        JQ5M019:     Male: Service occupations
+        JQ5M020:     Male: Service occupations: Healthcare support occupations
+        JQ5M021:     Male: Service occupations: Protective service occupations
+        JQ5M022:     Male: Service occupations: Protective service occupations: Fire fighting and prevention, and other protective service workers including supervisors
+        JQ5M023:     Male: Service occupations: Protective service occupations: Law enforcement workers including supervisors
+        JQ5M024:     Male: Service occupations: Food preparation and serving related occupations
+        JQ5M025:     Male: Service occupations: Building and grounds cleaning and maintenance occupations
+        JQ5M026:     Male: Service occupations: Personal care and service occupations
+        JQ5M027:     Male: Sales and office occupations
+        JQ5M028:     Male: Sales and office occupations: Sales and related occupations
+        JQ5M029:     Male: Sales and office occupations: Office and administrative support occupations
+        JQ5M030:     Male: Natural resources, construction, and maintenance occupations
+        JQ5M031:     Male: Natural resources, construction, and maintenance occupations: Farming, fishing, and forestry occupations
+        JQ5M032:     Male: Natural resources, construction, and maintenance occupations: Construction and extraction occupations
+        JQ5M033:     Male: Natural resources, construction, and maintenance occupations: Installation, maintenance, and repair occupations
+        JQ5M034:     Male: Production, transportation, and material moving occupations
+        JQ5M035:     Male: Production, transportation, and material moving occupations: Production occupations
+        JQ5M036:     Male: Production, transportation, and material moving occupations: Transportation occupations
+        JQ5M037:     Male: Production, transportation, and material moving occupations: Material moving occupations
+        JQ5M038:     Female
+        JQ5M039:     Female: Management, business, science, and arts occupations
+        JQ5M040:     Female: Management, business, science, and arts occupations: Management, business, and financial occupations
+        JQ5M041:     Female: Management, business, science, and arts occupations: Management, business, and financial occupations: Management occupations
+        JQ5M042:     Female: Management, business, science, and arts occupations: Management, business, and financial occupations: Business and financial operations occupations
+        JQ5M043:     Female: Management, business, science, and arts occupations: Computer, engineering, and science occupations
+        JQ5M044:     Female: Management, business, science, and arts occupations: Computer, engineering, and science occupations: Computer and mathematical occupations
+        JQ5M045:     Female: Management, business, science, and arts occupations: Computer, engineering, and science occupations: Architecture and engineering occupations
+        JQ5M046:     Female: Management, business, science, and arts occupations: Computer, engineering, and science occupations: Life, physical, and social science occupations
+        JQ5M047:     Female: Management, business, science, and arts occupations: Education, legal, community service, arts, and media occupations
+        JQ5M048:     Female: Management, business, science, and arts occupations: Education, legal, community service, arts, and media occupations: Community and social service occupations
+        JQ5M049:     Female: Management, business, science, and arts occupations: Education, legal, community service, arts, and media occupations: Legal occupations
+        JQ5M050:     Female: Management, business, science, and arts occupations: Education, legal, community service, arts, and media occupations: Education, training, and library occupations
+        JQ5M051:     Female: Management, business, science, and arts occupations: Education, legal, community service, arts, and media occupations: Arts, design, entertainment, sports, and media occupations
+        JQ5M052:     Female: Management, business, science, and arts occupations: Healthcare practitioners and technical occupations
+        JQ5M053:     Female: Management, business, science, and arts occupations: Healthcare practitioners and technical occupations: Health diagnosing and treating practitioners and other technical occupations
+        JQ5M054:     Female: Management, business, science, and arts occupations: Healthcare practitioners and technical occupations: Health technologists and technicians
+        JQ5M055:     Female: Service occupations
+        JQ5M056:     Female: Service occupations: Healthcare support occupations
+        JQ5M057:     Female: Service occupations: Protective service occupations
+        JQ5M058:     Female: Service occupations: Protective service occupations: Fire fighting and prevention, and other protective service workers including supervisors
+        JQ5M059:     Female: Service occupations: Protective service occupations: Law enforcement workers including supervisors
+        JQ5M060:     Female: Service occupations: Food preparation and serving related occupations
+        JQ5M061:     Female: Service occupations: Building and grounds cleaning and maintenance occupations
+        JQ5M062:     Female: Service occupations: Personal care and service occupations
+        JQ5M063:     Female: Sales and office occupations
+        JQ5M064:     Female: Sales and office occupations: Sales and related occupations
+        JQ5M065:     Female: Sales and office occupations: Office and administrative support occupations
+        JQ5M066:     Female: Natural resources, construction, and maintenance occupations
+        JQ5M067:     Female: Natural resources, construction, and maintenance occupations: Farming, fishing, and forestry occupations
+        JQ5M068:     Female: Natural resources, construction, and maintenance occupations: Construction and extraction occupations
+        JQ5M069:     Female: Natural resources, construction, and maintenance occupations: Installation, maintenance, and repair occupations
+        JQ5M070:     Female: Production, transportation, and material moving occupations
+        JQ5M071:     Female: Production, transportation, and material moving occupations: Production occupations
+        JQ5M072:     Female: Production, transportation, and material moving occupations: Transportation occupations
+        JQ5M073:     Female: Production, transportation, and material moving occupations: Material moving occupations
+ 
+--------------------------------------------------------------------------------
+Citation and Use of NHGIS Data
+--------------------------------------------------------------------------------
+ 
+All persons are granted a limited license to use this documentation and the
+accompanying data, subject to the following conditions:
+
+* REDISTRIBUTION: You will not redistribute the data without permission.
+
+  You may publish a subset of the data to meet journal requirements for accessing 
+  data related to a particular publication. Contact us for permission for any other 
+  redistribution; we will consider requests for free and commercial redistribution.
+
+* CITATION: You will cite NHGIS appropriately.
+
+    * Publications and research reports employing NHGIS data (either tabular or GIS) 
+      should include the following citation:
+
+        Steven Manson, Jonathan Schroeder, David Van Riper, and Steven Ruggles. 
+        IPUMS National Historical Geographic Information System: Version 13.0 
+        [Database]. Minneapolis: University of Minnesota. 2018. 
+        http://doi.org/10.18128/D050.V13.0
+
+    * Publications and research reports employing school attendance areas data 
+      (either tabular or GIS) must cite it appropriately. The citation should 
+      include the following:
+
+        The College of William and Mary and the Minnesota Population Center.
+        School Attendance Boundary Information System (SABINS): Version 1.0.
+        Minneapolis, MN: University of Minnesota 2011.
+
+    * For policy briefs, online resources, or articles in the popular press, we 
+      recommend that you cite the use of NHGIS data as follows:
+
+        IPUMS NHGIS, University of Minnesota, www.nhgis.org.
+
+    * If possible, citations involving school attendance areas should also include
+      the URL for the SABINS site:
+
+        http://www.sabinsdata.org/.
+
+These terms of use are a legally binding agreement. You can use the data only in 
+accordance with these terms, and any other use is a violation of the agreement. 
+Violations may result in revocation of the agreement and prohibition from using other 
+IPUMS data. If IPUMS or our partners are harmed from your violation, you are 
+responsible for all damages, including reasonable attorney's fees and expenses.
+        
+In addition, we request that users send us a copy of any publications, research
+reports, or educational material making use of the data or documentation.
+
+Send electronic material to: nhgis@umn.edu
+
+Printed matter should be sent to:
+
+    IPUMS NHGIS
+    Institute for Social Research and Data Innovation
+    University of Minnesota
+    50 Willey Hall
+    225 19th Ave S
+    Minneapolis, MN 55455
